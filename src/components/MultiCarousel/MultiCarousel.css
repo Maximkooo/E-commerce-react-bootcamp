@@ -1,0 +1,11 @@
+.react-multiple-carousel__arrow--left {
+  background-color: #3498db !important;
+  color: #fff;
+  left: 5px;
+}
+
+.react-multiple-carousel__arrow--right {
+  background-color: #3498db !important;
+  color: #fff;
+  right: 5px;
+}
