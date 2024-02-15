@@ -1,11 +1,14 @@
 {
   "name": "e-commerce-react-production",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
+  "homepage": "https://cheezepeeze.github.io/E-commerce-react-production/",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "npm run build",
+    "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
